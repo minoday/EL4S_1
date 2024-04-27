@@ -10,7 +10,7 @@ public class titleScript : MonoBehaviour
 {
     [HideInInspector]public int m_nowSelect;
     [SerializeField] private string m_nextSceneName;
-    private float m_oldHhorizontal;
+    private float m_oldHorizontal;
     [SerializeField] private Color32 m_SelectColor;
     [SerializeField] private Color32 m_unSelectColor;
     [SerializeField] private GameObject m_toSelectScene;
@@ -32,10 +32,10 @@ public class titleScript : MonoBehaviour
 
     // Update is called once per frame
     void Update() {
-        if(Input.GetAxis("Horizontal")>0 && m_oldHhorizontal <= 0) {
+        if(Input.GetAxis("Horizontal")>0 && m_oldHorizontal <= 0) {
             m_nowSelect++;
         }
-        if(Input.GetAxis("Horizontal") < 0 && m_oldHhorizontal >= 0) {
+        if(Input.GetAxis("Horizontal") < 0 && m_oldHorizontal >= 0) {
             m_nowSelect--;
             if (m_nowSelect < 0) {
                 m_nowSelect = 1;
@@ -76,7 +76,7 @@ public class titleScript : MonoBehaviour
         }
 
 
-        m_oldHhorizontal = Input.GetAxis("Horizontal");
+        m_oldHorizontal = Input.GetAxis("Horizontal");
     }
 
 
