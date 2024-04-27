@@ -61,7 +61,7 @@ public class SelectSceneScript : MonoBehaviour
 
         if(m_state == STATE.MOVE) {
             m_NowPos += m_Speed;
-            Vector2.Lerp(m_transform.position, m_StagePos[m_nextStage].GetComponent<RectTransform>().position, m_NowPos);
+            m_transform.position= Vector3.Lerp(m_transform.position, m_StagePos[m_nextStage].GetComponent<RectTransform>().position, m_NowPos);
             if (m_NowPos >= 1) {
                 m_transform.position = m_StagePos[m_nextStage].GetComponent<RectTransform>().position;
                 m_nowStage = m_nextStage;
