@@ -5,8 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class Goal : MonoBehaviour
 {
-    
-
     // Start is called before the first frame update
     void Start()
     {
@@ -20,8 +18,8 @@ public class Goal : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
- 
-            SceneManager.LoadScene("Title");
+        GetComponent<SetClearData>().SetData();
+        SceneManager.LoadScene("Title");
         
     }
 }
