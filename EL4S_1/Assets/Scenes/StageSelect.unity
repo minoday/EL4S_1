@@ -708,7 +708,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e450c0cd7138d474caed643066022e1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_StagePos: []
+  m_StagePos:
+  - {fileID: 18714240}
+  - {fileID: 497790062}
+  - {fileID: 481932026}
+  - {fileID: 1903435611}
+  - {fileID: 410028880}
+  m_Speed: 0.025
+  m_nextSceneName:
+  - 
+  - 
+  - 
+  - 
 --- !u!114 &1354946370
 MonoBehaviour:
   m_ObjectHideFlags: 0
