@@ -21,6 +21,12 @@ public class Answer_checker : MonoBehaviour
     [SerializeField, Header("回答済であるか")]
     private AnsweredCheck answeredCheck;
 
+    [SerializeField,Header("表示する食べ物のデータ")]
+    private FoodData foodData;
+
+    [SerializeField, Header("パネルのやつ")]
+    private UIDataSet uiDataSet;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -53,6 +59,11 @@ public class Answer_checker : MonoBehaviour
                 Debug.Log("不正解");
             }
 
+            // 解説を表示させる
+            uiDataSet.foodData = this.foodData;
+            uiDataSet.DisplayPanel();
+
+            // その設問を解いた状態にする
             answeredCheck.is_answered = true;
         }
         else
