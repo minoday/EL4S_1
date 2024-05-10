@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30022831eadc7dd4fa99dfd15d2bb985, type: 3}
   m_Name: ClearData
   m_EditorClassIdentifier: 
-  _stageData:
+  selectStage: 0
+  stageData:
   - {fileID: 11400000, guid: 5c8b1ed646e89da4693b44c9e3d9d0d4, type: 2}
   - {fileID: 11400000, guid: b945b804b6271404794acc3741899b29, type: 2}
   - {fileID: 11400000, guid: 538a9532d908a504a8dc46bfba804fcb, type: 2}
