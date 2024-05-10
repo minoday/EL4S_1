@@ -19,7 +19,7 @@ public class Goal : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         GetComponent<SetClearData>().SetData();
-        SceneManager.LoadScene("Title");
+        SceneManager.LoadScene("00_Title");
         
     }
 }

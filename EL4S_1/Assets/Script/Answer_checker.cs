@@ -6,8 +6,8 @@ using UnityEngine.UI;
 
 public class Answer_checker : MonoBehaviour
 {
-    [SerializeField, Header("–â‘è”UI")]
-    public Text Total_UI;
+    //[SerializeField, Header("–â‘è”UI")]
+    //public Text Total_UI;
 
     [SerializeField, Header("³“š”UI")]
     public Text Answer_UI;
@@ -18,6 +18,9 @@ public class Answer_checker : MonoBehaviour
     [SerializeField, Header("³‰ğ‚©")]
     public bool Correct;
 
+    [SerializeField, Header("‰ñ“šÏ‚Å‚ ‚é‚©")]
+    private AnsweredCheck answeredCheck;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,19 +30,20 @@ public class Answer_checker : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Total_UI.text = string.Format("{0}", Player.Total);
+        //Total_UI.text = string.Format("{0}", Player.Total);
         Answer_UI.text = string.Format("{0}", Player.Score);
     }
 
     private void OnTriggerEnter(Collider other)
     {
 
+        if(!answeredCheck.is_answered)
         {
             //‰ğ‚¢‚½–â‘è”‚ğ”‚¦‚é
             Player.Total++;
 
             //³‰ğ‚©‚Ç‚¤‚©‚Ì”»’è
-            if(Correct)
+            if (Correct)
             {
                 Player.Score++;
                 Debug.Log("³‰ğ");
@@ -49,9 +53,11 @@ public class Answer_checker : MonoBehaviour
                 Debug.Log("•s³‰ğ");
             }
 
+            answeredCheck.is_answered = true;
+        }
+        else
+        {
+            Debug.Log("‰ñ“šÏ");
         }
     }
-
-
-
 }
