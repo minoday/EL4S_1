@@ -6,6 +6,7 @@ public class Player_move : MonoBehaviour
 {
     public float forward_speed;
     public float leftandright_speed;
+    public bool is_move;
 
     // Start is called before the first frame update
     void Start()
@@ -16,17 +17,21 @@ public class Player_move : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //前移動処理
-        this.transform.Translate(0.0f, 0.0f, forward_speed);
-
-        //左右移動処理
-        if (Input.GetKey(KeyCode.LeftArrow)|| Input.GetKey(KeyCode.A)) {
-            this.transform.Translate(-leftandright_speed, 0.0f, 0.0f);
-        }
-
-        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
+        if (is_move)
         {
-            this.transform.Translate(leftandright_speed, 0.0f, 0.0f);
+            //前移動処理
+            this.transform.Translate(0.0f, 0.0f, forward_speed);
+
+            //左右移動処理
+            if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
+            {
+                this.transform.Translate(-leftandright_speed, 0.0f, 0.0f);
+            }
+
+            if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
+            {
+                this.transform.Translate(leftandright_speed, 0.0f, 0.0f);
+            }
         }
     }
 }

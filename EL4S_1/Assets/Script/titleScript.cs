@@ -42,8 +42,6 @@ public class titleScript : MonoBehaviour
             }
         }
         m_nowSelect %= 2;
-        
-        Debug.Log(m_nowSelect);
 
         switch (m_nowSelect) {
             case 0:
