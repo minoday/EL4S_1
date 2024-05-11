@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c401bc6f2d35505438af8a52da84c38c, type: 3}
+  m_Name: StargazyPie
+  m_EditorClassIdentifier: 
+  foodName: "\u30B9\u30BF\u30FC\u30B2\u30A4\u30B8\u30FC\u30D1\u30A4"
+  foodExplanation: "\u5D50\u3067\u98A8\u5439\u304D\u8352\u308C\u308B\u51AC\u306B\u4E00\u4EBA\u6F01\u306B\u51FA\u3066\u9B5A\u3092\u7372\u3063\u305F\u30C8\u30E0\u30FB\u30D0\u30FC\u30B3\u30C3\u30AF\u306B\u30D1\u30A4\u306E\u4E2D\u306B\u9B5A\u304C\u5165\u3063\u3066\u3044\u308B\u3053\u3068\u3092\u793A\u3059\u305F\u3081\u306B\u9B5A\u306E\u982D\u90E8\u3092\u30D1\u30A4\u304B\u3089\u7A81\u304D\u51FA\u3059\u5F62\u306B\u3057\u305F\u3053\u3068\u304C\u767A\u7965\u3002"
+  foodImage: {fileID: 21300000, guid: cc0ee84a83b45ac458718b06f841fff9, type: 3}
+  foodCountryImage: {fileID: 21300000, guid: d7a4854fd0942c04d810dc9a84b16f3d, type: 3}
