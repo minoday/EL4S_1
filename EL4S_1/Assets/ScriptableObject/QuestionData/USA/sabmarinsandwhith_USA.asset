@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c401bc6f2d35505438af8a52da84c38c, type: 3}
+  m_Name: sabmarinsandwhith_USA
+  m_EditorClassIdentifier: 
+  foodName: "\u30B5\u30D6\u30DE\u30EA\u30F3\u30B5\u30F3\u30C9\u30A4\u30C3\u30C1"
+  foodExplanation: "\u98DF\u6599\u54C1\u5E97\u3092\u55B6\u3093\u3067\u3044\u305F\u30A4\u30BF\u30EA\u30A2\u7CFB\u30A2\u30E1\u30EA\u30AB\u4EBA\u306E\u30C9\u30DF\u30CB\u30AF\u30FB\u30B3\u30F3\u30C6\u30A3\uFF08Dominic
+    Conti\u30011874\u5E74-1954\u5E74\uFF09\u304C\u30D1\u30BF\u30FC\u30BD\u30F3\u535A\u7269\u9928\uFF08\u82F1\u8A9E\u7248\uFF09\u306B\u5C55\u793A\u3055\u308C\u3066\u3044\u305F\u6F5C\u6C34\u8266\u30D5\u30A7\u30CB\u30A2\u30F3\u30E9\u30E0\uFF08\u82F1\u8A9E\u7248\uFF09\u3092\u898B\u3066\u30011910\u5E74\u306B\u81EA\u8EAB\u306E\u5E97\u3067\u8CA9\u58F2\u3059\u308B\u30A4\u30BF\u30EA\u30A2\u30F3\u30FB\u30B5\u30F3\u30C9\u30A4\u30C3\u30C1\u306B\u30B5\u30D6\u30DE\u30EA\u30F3\u306E\u540D\u3092\u4ED8\u3051\u305F\u3068\u3055\u308C\u308B"
+  foodImage: {fileID: 21300000, guid: 325c0dda6a8a6af46b7dd1363a6ee4d0, type: 3}
+  foodCountryImage: {fileID: 21300000, guid: 332ae4204ae60e446a0c852cdc587799, type: 3}

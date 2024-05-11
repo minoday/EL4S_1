@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c401bc6f2d35505438af8a52da84c38c, type: 3}
+  m_Name: guratan
+  m_EditorClassIdentifier: 
+  foodName: "\u30B0\u30E9\u30BF\u30F3"
+  foodExplanation: "\u30D5\u30E9\u30F3\u30B9\u306E\u30C9\u30FC\u30D5\u30A3\u30CD\u5730\u65B9\u304C\u767A\u7965\u306E\u5730\u3068\u8A00\u308F\u308C\u308B\u90F7\u571F\u6599\u7406\u304B\u3089\u767A\u9054\u3057\u305F\u6599\u7406\u3067\u3042\u308B"
+  foodImage: {fileID: 21300000, guid: 4a0431e77bec2d5489952df31a0191b1, type: 3}
+  foodCountryImage: {fileID: 21300000, guid: e679f07984166db4c99ea5474e61aab5, type: 3}
