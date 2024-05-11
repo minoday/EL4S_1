@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c401bc6f2d35505438af8a52da84c38c, type: 3}
+  m_Name: mabonasu
+  m_EditorClassIdentifier: 
+  foodName: "\u9EBB\u5A46\u8304\u5B50"
+  foodExplanation: "\u9EBB\u5A46\u8304\u5B50\u306F\u3001\u3053\u306E\u6599\u7406\u3092\u65E5\u672C\u4EBA\u306E\u5473\u899A\u306B\u5408\u3046\u3088\u3046\u306B\u30A2\u30EC\u30F3\u30B8\u3057\u305F\u6599\u7406\u3068\u3044\u308F\u308C\u307E\u3059\u3002"
+  foodImage: {fileID: 21300000, guid: da516a6481d16244a8385bb9cbac8d60, type: 3}
+  foodCountryImage: {fileID: 21300000, guid: cef2f7876ea4f8641b0d66ce4b741c57, type: 3}

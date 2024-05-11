@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c401bc6f2d35505438af8a52da84c38c, type: 3}
+  m_Name: mayakutamago
+  m_EditorClassIdentifier: 
+  foodName: "\u9EBB\u85AC\u5375"
+  foodExplanation: "\u97D3\u56FD\u98A8\u306E\u716E\u5375\u3067\u3001\u3084\u307F\u3064\u304D\u306B\u306A\u308B\u5473\u3068\u306E\u3053\u3068\u3067\u4EBA\u6C17\u306E\u98DF\u3079\u7269\u3060\u305D\u3046\u3067\u3059\uFF01
+    \u3069\u306E\u3088\u3046\u306A\u98DF\u3079\u7269\u304B\u3068\u3044\u3046\u3068\u3001\u8339\u3067\u5375\u3092\u9577\u30CD\u30AE\u3084\u306B\u3093\u306B\u304F\u306A\u3069\u3092\u5165\u308C\u305F\u91A4\u6CB9\u30D9\u30FC\u30B9\u306E\u7518\u8F9B\u3044\u8ABF\u5473\u6DB2\u306B\u6F2C\u3051\u305F\u6599\u7406\u3067\u3059\u3002"
+  foodImage: {fileID: 21300000, guid: b7861900627e0b1449339c33ba497cb5, type: 3}
+  foodCountryImage: {fileID: 21300000, guid: c44b298394fb3f94baefd767b45d6ee1, type: 3}
