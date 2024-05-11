@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c401bc6f2d35505438af8a52da84c38c, type: 3}
+  m_Name: tintin
+  m_EditorClassIdentifier: 
+  foodName: "\u30BD\u30FC\u30BB\u30FC\u30B8"
+  foodExplanation: "\u30BD\u30FC\u30BB\u30FC\u30B8\u306E\u6B74\u53F2\u306F\u7D043000\uFF5E3500\u5E74\u524D\u306B\u30A8\u30B8\u30D7\u30C8\u3001\u4E2D\u8FD1\u6771\u3042\u305F\u308A\u3067\u59CB\u307E\u3063\u305F\u3068\u8003\u3048\u3089\u308C\u3066\u3044\u308B"
+  foodImage: {fileID: 21300000, guid: f835ba8b852405b41a21f0aa805cc036, type: 3}
+  foodCountryImage: {fileID: 21300000, guid: 546c2fdff46d09349aff794e2ab45438, type: 3}
