@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class SelectSceneScript : MonoBehaviour
 {
-    enum STATE {
+    public enum STATE {
         MOVE,
         STOP
     };
@@ -17,8 +17,8 @@ public class SelectSceneScript : MonoBehaviour
     [Header("移動速度,補間使うので0~1が移動中"),SerializeField]private float m_Speed = 0.025f;
 
     private float m_NowPos = 0;    //今の移動割合
-    private STATE m_state = STATE.STOP;
-    private int m_nowStage = 0;
+    [HideInInspector]public STATE m_state = STATE.STOP;
+    [HideInInspector]public int m_nowStage = 0;
     private int m_nextStage = 0;
 
     private float m_oldHorizontal;
@@ -26,12 +26,13 @@ public class SelectSceneScript : MonoBehaviour
     private RectTransform m_transform;
 
     [Header("行くステージ"), SerializeField] private string[] m_nextSceneName;
+    [SerializeField]private ClearData m_clearData;
 
     // Start is called before the first frame update
     void Start() {
         m_transform = GetComponent<RectTransform>();
         m_transform.position = m_StagePos[m_nowStage].GetComponent<RectTransform>().position;
-
+        m_nowStage = m_clearData.selectStage;
     }
 
     // Update is called once per frame
@@ -54,6 +55,8 @@ public class SelectSceneScript : MonoBehaviour
                 m_NowPos = 0;
             }
             else if (Input.GetButton("Submit")) {
+
+                m_clearData.selectStage = this.m_nowStage;
                 LoadScene();
             }
         }
@@ -61,7 +64,7 @@ public class SelectSceneScript : MonoBehaviour
 
         if(m_state == STATE.MOVE) {
             m_NowPos += m_Speed;
-            m_transform.position= Vector3.Lerp(m_transform.position, m_StagePos[m_nextStage].GetComponent<RectTransform>().position, m_NowPos);
+            m_transform.position= Vector3.Lerp(m_StagePos[m_nowStage].GetComponent<RectTransform>().position, m_StagePos[m_nextStage].GetComponent<RectTransform>().position, m_NowPos);
             if (m_NowPos >= 1) {
                 m_transform.position = m_StagePos[m_nextStage].GetComponent<RectTransform>().position;
                 m_nowStage = m_nextStage;
