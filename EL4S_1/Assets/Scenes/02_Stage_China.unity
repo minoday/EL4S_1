@@ -1594,7 +1594,6 @@ PrefabInstance:
       propertyPath: foodData
       value: 
       objectReference: {fileID: 11400000, guid: 0b5eec3c07b5d8b458af97c6698c2b55, type: 2}
-
     - target: {fileID: 1520533832230107587, guid: b949da347b7f83b448d1f13483cf7d6c, type: 3}
       propertyPath: Answer_UI
       value: 
@@ -1663,7 +1662,6 @@ PrefabInstance:
       propertyPath: foodData
       value: 
       objectReference: {fileID: 11400000, guid: 528096feed9e1d345a29c54fffe2f4c1, type: 2}
-
     - target: {fileID: 3969191074552947600, guid: b949da347b7f83b448d1f13483cf7d6c, type: 3}
       propertyPath: Answer_UI
       value: 
@@ -2183,6 +2181,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 99905447}
     - target: {fileID: 1520533832230107587, guid: b949da347b7f83b448d1f13483cf7d6c, type: 3}
+      propertyPath: Correct
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1520533832230107587, guid: b949da347b7f83b448d1f13483cf7d6c, type: 3}
       propertyPath: Total_UI
       value: 
       objectReference: {fileID: 0}
@@ -2190,7 +2192,6 @@ PrefabInstance:
       propertyPath: foodData
       value: 
       objectReference: {fileID: 11400000, guid: fde7f83ed10bbfe4684c895d7921df7c, type: 2}
-
     - target: {fileID: 1520533832230107587, guid: b949da347b7f83b448d1f13483cf7d6c, type: 3}
       propertyPath: Answer_UI
       value: 
@@ -2252,6 +2253,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 99905447}
     - target: {fileID: 3969191074552947600, guid: b949da347b7f83b448d1f13483cf7d6c, type: 3}
+      propertyPath: Correct
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3969191074552947600, guid: b949da347b7f83b448d1f13483cf7d6c, type: 3}
       propertyPath: Total_UI
       value: 
       objectReference: {fileID: 0}
@@ -2259,7 +2264,6 @@ PrefabInstance:
       propertyPath: foodData
       value: 
       objectReference: {fileID: 11400000, guid: f3130e6f69523c148933c973a7324557, type: 2}
-
     - target: {fileID: 3969191074552947600, guid: b949da347b7f83b448d1f13483cf7d6c, type: 3}
       propertyPath: Answer_UI
       value: 
@@ -2393,7 +2397,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1520533832230107587, guid: b949da347b7f83b448d1f13483cf7d6c, type: 3}
-
       propertyPath: Total_UI
       value: 
       objectReference: {fileID: 0}
@@ -2401,7 +2404,6 @@ PrefabInstance:
       propertyPath: foodData
       value: 
       objectReference: {fileID: 11400000, guid: 2c001b63c6573a647a67daaf0367ec97, type: 2}
-
     - target: {fileID: 1520533832230107587, guid: b949da347b7f83b448d1f13483cf7d6c, type: 3}
       propertyPath: Answer_UI
       value: 
@@ -2467,7 +2469,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3969191074552947600, guid: b949da347b7f83b448d1f13483cf7d6c, type: 3}
-
       propertyPath: Total_UI
       value: 
       objectReference: {fileID: 0}
@@ -5801,8 +5802,7 @@ PrefabInstance:
       objectReference: {fileID: 99905447}
     - target: {fileID: 1520533832230107587, guid: b949da347b7f83b448d1f13483cf7d6c, type: 3}
       propertyPath: Correct
-      value: 0
-
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1520533832230107587, guid: b949da347b7f83b448d1f13483cf7d6c, type: 3}
       propertyPath: Total_UI
@@ -5874,7 +5874,7 @@ PrefabInstance:
       objectReference: {fileID: 99905447}
     - target: {fileID: 3969191074552947600, guid: b949da347b7f83b448d1f13483cf7d6c, type: 3}
       propertyPath: Correct
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3969191074552947600, guid: b949da347b7f83b448d1f13483cf7d6c, type: 3}
       propertyPath: Total_UI
