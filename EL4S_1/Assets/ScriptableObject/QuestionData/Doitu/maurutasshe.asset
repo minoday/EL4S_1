@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c401bc6f2d35505438af8a52da84c38c, type: 3}
+  m_Name: maurutasshe
+  m_EditorClassIdentifier: 
+  foodName: "\u30DE\u30A6\u30EB\u30BF\u30C3\u30B7\u30A7"
+  foodExplanation: "\u30D1\u30B9\u30BF\u751F\u5730\u306E\u4E2D\u306B\u3072\u304D\u8089\u30FB\u71FB\u88FD\u8089\u30FB\u307B\u3046\u308C\u3093\u8349\u30FB\u30D1\u30F3\u7C89\u30FB\u7389\u306D\u304E\u3092\u7DF4\u3063\u3066\u8A70\u3081\u3001\u30D1\u30BB\u30EA\u3084\u30CA\u30C4\u30E1\u30B0\u3001\u9ED2\u80E1\u6912\u3067\u98A8\u5473\u3092\u8ABF\u3048\u3066\u8ABF\u7406\u3057\u305F\u6599\u7406"
+  foodImage: {fileID: 21300000, guid: 621b59fb9797a2f4abd095b5f43a1a8b, type: 3}
+  foodCountryImage: {fileID: 21300000, guid: 3e6a0240e18161a4cb5fa355873b7a92, type: 3}
