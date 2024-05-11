@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c401bc6f2d35505438af8a52da84c38c, type: 3}
+  m_Name: kisshu
+  m_EditorClassIdentifier: 
+  foodName: "\u30AD\u30C3\u30B7\u30E5"
+  foodExplanation: "\u30D5\u30E9\u30F3\u30B9\u306E\u30A2\u30EB\u30B6\u30B9=\u30ED\u30EC\u30FC\u30CC\u5730\u65B9\u306E\u90F7\u571F\u6599\u7406\u3002\u5375\u3084\u30AF\u30EA\u30FC\u30E0\u3068\u7D44\u307F\u5408\u308F\u305B\u305F\u30EC\u30B7\u30D4\u306F\u300115\u4E16\u7D00\u306E\u30A4\u30BF\u30EA\u30A2\u306E\u6599\u7406\u672C\u300ELibro
+    de arte coquinaria\u300F\u7B49\u3067\u8A00\u53CA\u3055\u308C\u3066\u3044\u308B"
+  foodImage: {fileID: 21300000, guid: 28c5b91e99607f54a8a28eb148bd4a30, type: 3}
+  foodCountryImage: {fileID: 21300000, guid: 02dcd522cfac2f64188a8e9692de932c, type: 3}
