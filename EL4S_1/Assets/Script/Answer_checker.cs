@@ -24,13 +24,16 @@ public class Answer_checker : MonoBehaviour
     [SerializeField,Header("表示する食べ物のデータ")]
     private FoodData foodData;
 
+    [SerializeField,Header("正面のやつ")]
+    private SpriteRenderer spriteRenderer;
+
     [SerializeField, Header("パネルのやつ")]
     private UIDataSet uiDataSet;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        spriteRenderer.sprite = foodData.foodImage;
     }
 
     // Update is called once per frame
