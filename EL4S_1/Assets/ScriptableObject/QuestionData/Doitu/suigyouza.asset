@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c401bc6f2d35505438af8a52da84c38c, type: 3}
+  m_Name: suigyouza
+  m_EditorClassIdentifier: 
+  foodName: "\u6C34\u9903\u5B50"
+  foodExplanation: "\u6C34\u9903\u5B50\u306F\u4E2D\u56FD\u5317\u65B9\u306E\u6625\u7BC0\u3092\u4EE3\u8868\u3059\u308B\u6599\u7406\u3067\u3001\u65E5\u672C\u306E\u5E74\u8D8A\u3057\u305D\u3070\u306E\u3088\u3046\u306B\u3001\u5E74\u8D8A\u3057\u306B\u98DF\u3079\u308B\u7FD2\u6163\u304C\u3042\u308A\u307E\u3059\u3002"
+  foodImage: {fileID: 21300000, guid: 3963bec5b42a64146b4d59f32f44c46d, type: 3}
+  foodCountryImage: {fileID: 21300000, guid: 96ac252fb870bf143a25644a1328bd00, type: 3}
