@@ -42,6 +42,7 @@ public class SelectSceneScript : MonoBehaviour
                 m_nextStage = m_nowStage + 1;
                 m_nextStage %= 5;
 
+
                 m_state = STATE.MOVE;
                 m_NowPos = 0;
             }
@@ -50,6 +51,7 @@ public class SelectSceneScript : MonoBehaviour
                 if (m_nextStage < 0) {
                     m_nextStage = 4;
                 }
+
 
                 m_state = STATE.MOVE;
                 m_NowPos = 0;
@@ -63,6 +65,12 @@ public class SelectSceneScript : MonoBehaviour
 
 
         if(m_state == STATE.MOVE) {
+            if (m_StagePos[m_nowStage].GetComponent<RectTransform>().position.x > m_StagePos[m_nextStage].GetComponent<RectTransform>().position.x) {
+                this.transform.localScale = new Vector3(1,1,1);
+            }
+            else {
+                this.transform.localScale = new Vector3(-1, 1, 1);
+            }
             m_NowPos += m_Speed;
             m_transform.position= Vector3.Lerp(m_StagePos[m_nowStage].GetComponent<RectTransform>().position, m_StagePos[m_nextStage].GetComponent<RectTransform>().position, m_NowPos);
             if (m_NowPos >= 1) {
