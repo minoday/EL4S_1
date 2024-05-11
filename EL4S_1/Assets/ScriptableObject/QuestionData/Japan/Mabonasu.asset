@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   foodName: "\u9EBB\u5A46\u8304\u5B50"
   foodExplanation: "\u65E5\u672C\u306B\u304A\u3051\u308B\u300C\u9EBB\u5A46\u8304\u5B50\u300D\u306F\u3001\u9B5A\u9999\u3067\u306F\u306A\u304F\u9EBB\u5A46\u8C46\u8150\u3068\u540C\u3058\u8ABF\u5473\u6CD5\u306B\u3088\u308A\u4F5C\u3089\u308C\u308B\u30CA\u30B9\u3068\u633D\u8089\u306E\u7092\u3081\u716E\u3067\u3059\u3002"
-  foodImage: {fileID: 0}
+  foodImage: {fileID: 21300000, guid: da516a6481d16244a8385bb9cbac8d60, type: 3}
   foodCountryImage: {fileID: 21300000, guid: cef2f7876ea4f8641b0d66ce4b741c57, type: 3}

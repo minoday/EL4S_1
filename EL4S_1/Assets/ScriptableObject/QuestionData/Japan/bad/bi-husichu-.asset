@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c401bc6f2d35505438af8a52da84c38c, type: 3}
+  m_Name: bi-husichu-
+  m_EditorClassIdentifier: 
+  foodName: "\u30D3\u30FC\u30D5\u30B7\u30C1\u30E5\u30FC"
+  foodExplanation: "6\u4E16\u7D00\u5F8C\u534A\u304B\u308917\u4E16\u7D00\u524D\u534A\u306E\u30D5\u30E9\u30F3\u30B9\u304C\u767A\u7965\u3002\u65E5\u672C\u3067\u306F\u3001\u660E\u6CBB\u521D\u671F\u304B\u3089\u6D0B\u98DF\u30EC\u30B9\u30C8\u30E9\u30F3\u306E\u30E1\u30CB\u30E5\u30FC\u306B\u53D6\u308A\u5165\u308C\u3089\u308C\u3066\u3044\u308B"
+  foodImage: {fileID: 21300000, guid: 8bd1b3b53e61fdb47bad6e8127cf708d, type: 3}
+  foodCountryImage: {fileID: 21300000, guid: 02dcd522cfac2f64188a8e9692de932c, type: 3}
