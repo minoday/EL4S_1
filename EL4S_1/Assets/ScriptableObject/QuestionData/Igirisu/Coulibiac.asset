@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c401bc6f2d35505438af8a52da84c38c, type: 3}
+  m_Name: Coulibiac
+  m_EditorClassIdentifier: 
+  foodName: "\u30AF\u30FC\u30EA\u30D3\u30E4\u30C3\u30AF"
+  foodExplanation: "\u5375\u3068\u5C0F\u9EA6\u7C89\u3001\u30D0\u30BF\u30FC\u3067\u4F5C\u308B\u30D6\u30EA\u30AA\u30C3\u30B7\u30E5\u751F\u5730\u3067\u9BAD\u3092\u5305\u3093\u3067\u713C\u3044\u305F\u6599\u7406\u3002\u30AF\u30E9\u30B7\u30C3\u30AF\u30D5\u30EC\u30F3\u30C1\u306E\u6D41\u308C\u3092\u7D44\u3080\u30ED\u30B7\u30A2\u306E\u5BAE\u5EF7\u6599\u7406\u3068\u3055\u308C\u308B\u3002"
+  foodImage: {fileID: 21300000, guid: e0a09f25966ce0c4eb3b9ebbb00679bc, type: 3}
+  foodCountryImage: {fileID: 21300000, guid: e6726b639d91faf4eb89ebdc46d045d6, type: 3}
