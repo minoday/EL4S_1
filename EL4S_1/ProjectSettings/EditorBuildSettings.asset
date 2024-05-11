@@ -14,4 +14,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/02_Stage1.unity
     guid: 60fa07a013d56f84681ce103b19ecfaa
+  - enabled: 1
+    path: Assets/Scenes/02_Stage_USA.unity
+    guid: 0e2dcc999a514c14c96a4d47f0c316d6
+  - enabled: 1
+    path: Assets/Scenes/02_Stage_Britain.unity
+    guid: deac5cac65623f54eabee4dfcdb6ec12
+  - enabled: 1
+    path: Assets/Scenes/02_Stage_doitu.unity
+    guid: 9a6b80b2b55d5b941a078d7074648ab5
+  - enabled: 1
+    path: Assets/Scenes/02_Stage_Japan.unity
+    guid: 6776334b610fcec4ba35acfa2dee5b12
   m_configObjects: {}
