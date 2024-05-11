@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c401bc6f2d35505438af8a52da84c38c, type: 3}
+  m_Name: zeri
+  m_EditorClassIdentifier: 
+  foodName: "\u30BC\u30EA\u30FC"
+  foodExplanation: "\u304A\u83D3\u5B50\u306E\u4E16\u754C\u3067\u30BC\u30EA\u30FC\u304C\u767B\u5834\u3059\u308B\u3088\u3046\u306B\u306A\u3063\u305F\u306E\u306F\u300118\u4E16\u7D00\u672B\u304B\u308919\u4E16\u7D00\u521D\u982D\u306B\u30D5\u30E9\u30F3\u30B9\u3067\u6D3B\u8E8D\uFF08\u304B\u3064\u3084\u304F\uFF09\u3057\u305F\u8457\u540D\uFF08\u3061\u3087\u3081\u3044\uFF09\u306A\u6599\u7406\u4EBA\u3067\u3042\u308A\u88FD\u83D3\u8077\u4EBA\uFF08\u305B\u3044\u304B\u3057\u3087\u304F\u306B\u3093\uFF09\u3067\u3082\u3042\u3063\u305F\u30A2\u30F3\u30C8\u30F3\u30FB\u30AB\u30EC\u30FC\u30E0\u306B\u3088\u308B\u3068\u8003\u3048\u3089\u308C\u3066\u3044\u308B"
+  foodImage: {fileID: 21300000, guid: 7a688eef4f1d52744b9c5dc06b31a380, type: 3}
+  foodCountryImage: {fileID: 21300000, guid: e679f07984166db4c99ea5474e61aab5, type: 3}
