@@ -5,16 +5,16 @@ using UnityEngine;
 
 public class Hit_Sound : MonoBehaviour
 {
-    [SerializeField]
+    [SerializeField, Header("サウンドマネージャー")]
     private SoundManager soundManager; //サウンドマネージャー
 
-    [SerializeField]
+    [SerializeField, Header("Correctチェック")]
     private Answer_checker ans;
 
-    [SerializeField]
-    private AudioClip clip1; //正解音源データ1
-    [SerializeField]
-    private AudioClip clip2; //不正解音源データ1
+    [SerializeField, Header("正解音源データ")]
+    private AudioClip clip1; //正解音源データ
+    [SerializeField, Header("不正解音源データ")]
+    private AudioClip clip2; //不正解音源データ
 
     
 
