@@ -902,7 +902,7 @@ MonoBehaviour:
   - 02_Stage_USA
   - 02_Stage_Britain
   - 02_Stage_doitu
-  - 02_Stage_China
+  - 02_Stage_china
   m_clearData: {fileID: 11400000, guid: 37f5361f266d5d44483b8408e1d2b51c, type: 2}
 --- !u!114 &1354946370
 MonoBehaviour:
